@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
 
-function App() {
+const App = () => {
+  const handleClick = () => {
+    window.location.reload(); // Sayfanın yenilenmesi
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Pokemon Go Card Game</h2>
+      <Pokegame />
+      <div className="btn">
+        <button onClick={handleClick}>
+          <h3>PLAY</h3>
+        </button>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
