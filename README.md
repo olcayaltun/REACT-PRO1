@@ -2,3 +2,4 @@
 
   <h1>REACT KULLANILARAK HAZIRLANMISTIR</h1>
 # REACT-PRO1
+<img>assets/pokemon<img/>
