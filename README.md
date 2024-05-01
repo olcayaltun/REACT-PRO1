@@ -4,3 +4,4 @@
 # REACT-PRO1
  ![GIF](pokemon.gif)
 # REACT-PRO1
+  <img src="../assets/pokemon.gif" alt="Resim Açıklaması" />
