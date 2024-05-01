@@ -15,7 +15,7 @@ const App = () => {
         <button onClick={handleClick}>
           <h3>PLAY</h3>
         </button>
-        <img>po</img>
+        <img src="/pokemon.gif" alt="Resim Açıklaması" />
       </div>
     </div>
   );
